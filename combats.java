@@ -108,5 +108,4 @@ public class combats {
         System.out.println(d);
         System.out.println("------------------------------");
     }
-
 }

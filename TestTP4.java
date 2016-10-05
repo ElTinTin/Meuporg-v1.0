@@ -2,10 +2,10 @@ package TP4;
 
 class TestTP4 {
    public static void main(String[] args) {
-      enchanteur Gandoulf = new enchanteur (150, 20, 15);
-      truqueur Tartanfion = new truqueur (100, 30, 10);
-      chevalier Passpartrou = new chevalier (300, 10, 30);
-      excalibur Foulindra = new excalibur (200, 40, 30);
+      Enchanteur Gandoulf = new Enchanteur (150, 20, 15);
+      Truqueur Tartanfion = new Truqueur (100, 30, 10);
+      Chevalier Passpartrou = new Chevalier (300, 10, 30);
+      Excalibur Foulindra = new Excalibur (200, 40, 30);
       
       System.out.println(Gandoulf.toString());
       Gandoulf.blesse();
@@ -22,7 +22,8 @@ class TestTP4 {
         } else if(result=='B'){
             System.out.println("\nL'équipe B est déclarée gagnante !");
         } else {
-            System.out.println("\nProblem ? ( ͡° ͜ʖ ͡°)");
+            System.out.println("\nTout le monde est mort... Oh wait ?!");
         }
+        
    }
 }
