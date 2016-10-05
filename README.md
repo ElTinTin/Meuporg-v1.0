@@ -1,2 +1,2 @@
 # Meuporg.v1.0
-Version avec gestion de l'IA (deuxième partie du TP)
+Version jusqu'au début de l'IA. 
